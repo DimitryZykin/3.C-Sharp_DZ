@@ -1,4 +1,4 @@
-﻿string[] array1 = new string[7] {"12354", "2653", "12hello", "12world", "1qs", "1es", "1ns"};
+﻿string[] array1 = new string[5] { "2653", "12hello", "12world", "1qs", "1ns"};
 string[] array2 = new string[array1.Length];
 
 // Searching <= 3 chars elements method
@@ -15,12 +15,14 @@ void SecondArrayWithIF(string[] array1, string[] array2)
     }
 }
 
+
+
 // Printing array method
 void PrintArray(string[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        Console.Write($"{array[i]} ");
+        Console.Write($"{array[i]} | ");
     }
     Console.WriteLine();
 }
