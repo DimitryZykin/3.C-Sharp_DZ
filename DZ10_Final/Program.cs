@@ -1,4 +1,4 @@
-﻿string[] array1 = new string[5] {"12354", "2653", "12hello", "12world", "1qs", "1es", "1ns"};
+﻿string[] array1 = new string[7] {"12354", "2653", "12hello", "12world", "1qs", "1es", "1ns"};
 string[] array2 = new string[array1.Length];
 
 // Searching <= 3 chars elements method
